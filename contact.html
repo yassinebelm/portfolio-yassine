@@ -62,8 +62,12 @@
         <label for="message" class="form-label">Message</label>
         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Votre message..." required></textarea>
       </div>
-        <input type="hidden" name="_next" value="https://formsubmit.co/thank-you">
 
+      <!-- Redirection vers votre propre page de remerciement -->
+      <input type="hidden" name="_next" value="https://belmokhtaryassine.github.io/merci.html">
+
+      <!-- Pour désactiver Captcha de Formsubmit (optionnel mais utile) -->
+      <input type="hidden" name="_captcha" value="false">
 
       <button type="submit" class="btn w-100">Envoyer</button>
     </form>
